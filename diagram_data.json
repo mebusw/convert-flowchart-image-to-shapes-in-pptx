@@ -1,0 +1,232 @@
+{
+  "title": "实例映射研讨会的参考结果",
+  "elements": [
+    {
+      "type": "title_text",
+      "text": "实例映射研讨会的参考结果",
+      "color": "RGB(0, 0, 0)",
+      "position": "[50, 40]",
+      "dimensions": "[300, 30]"
+    },
+    {
+      "type": "header_logo_text",
+      "text": "UPerform",
+      "color": "RGB(40, 110, 190)",
+      "position": "[850, 40]",
+      "dimensions": "[100, 20]"
+    },
+    {
+      "type": "header_subtext",
+      "text": "捷普AI智能管理平台",
+      "color": "RGB(130, 130, 130)",
+      "position": "[830, 60]",
+      "dimensions": "[150, 15]"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "A_在线日历",
+      "text": "在线日历",
+      "color": "RGB(255, 255, 176)",
+      "position": "[400, 150]",
+      "dimensions": "[200, 40]",
+      "role": "核心主题"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "B_角色需求",
+      "text": "作为一名非常忙碌的商人，我想一个在线日历，以便我收到开会的提醒",
+      "color": "RGB(255, 255, 176)",
+      "position": "[320, 200]",
+      "dimensions": "[360, 60]",
+      "role": "用户故事"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "C1_提醒功能",
+      "text": "在会议前发出提醒",
+      "color": "RGB(192, 224, 255)",
+      "position": "[110, 310]",
+      "dimensions": "[200, 40]",
+      "role": "功能/场景"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "C2_邀请功能",
+      "text": "会议发起人可以邀请参会者",
+      "color": "RGB(192, 224, 255)",
+      "position": "[400, 310]",
+      "dimensions": "[200, 40]",
+      "role": "功能/场景"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "C3_修改功能",
+      "text": "会议发起人可以修改会议详情",
+      "color": "RGB(192, 224, 255)",
+      "position": "[690, 310]",
+      "dimensions": "[200, 40]",
+      "role": "功能/场景"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D1_1_疑问",
+      "text": "有没专人跟进呢？",
+      "color": "RGB(255, 192, 203)",
+      "position": "[210, 370]",
+      "dimensions": "[120, 30]",
+      "role": "未决问题"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D1_2_实例",
+      "text": "我需要在下一个11点半的会议，所以我现在上午10:45 收到提醒",
+      "color": "RGB(255, 255, 255)",
+      "position": "[50, 410]",
+      "dimensions": "[280, 50]",
+      "role": "实例/规则"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D1_3_实例",
+      "text": "我需要时长间隔通知，所以我现在上午10点收到早上11点半会议的提醒",
+      "color": "RGB(255, 255, 255)",
+      "position": "[50, 465]",
+      "dimensions": "[280, 50]",
+      "role": "实例/规则"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D2_1_实例",
+      "text": "只邀请额外的参会者",
+      "color": "RGB(255, 255, 255)",
+      "position": "[340, 410]",
+      "dimensions": "[180, 30]",
+      "role": "实例/规则"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D2_2_实例",
+      "text": "一个受邀者不能再邀请其他人，只有发起人可以",
+      "color": "RGB(255, 255, 255)",
+      "position": "[530, 410]",
+      "dimensions": "[200, 50]",
+      "role": "实例/规则"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D2_3_疑问",
+      "text": "会议发起人只能邀请分配给他的人？",
+      "color": "RGB(255, 192, 203)",
+      "position": "[600, 370]",
+      "dimensions": "[180, 40]",
+      "role": "未决问题"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D3_1_疑问",
+      "text": "你可以把时间延迟到下一个11点半吗?",
+      "color": "RGB(255, 192, 203)",
+      "position": "[800, 150]",
+      "dimensions": "[150, 40]",
+      "role": "未决问题 (关联C3)"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D3_2_疑问",
+      "text": "经常时间",
+      "color": "RGB(255, 192, 203)",
+      "position": "[830, 200]",
+      "dimensions": "[100, 30]",
+      "role": "未决问题 (关联C3)"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D3_3_实例",
+      "text": "会议时间从上午11点改为10点",
+      "color": "RGB(255, 255, 255)",
+      "position": "[700, 470]",
+      "dimensions": "[190, 30]",
+      "role": "实例/规则"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D3_4_实例",
+      "text": "一个受邀者不能修改会议名称",
+      "color": "RGB(255, 255, 255)",
+      "position": "[700, 505]",
+      "dimensions": "[190, 30]",
+      "role": "实例/规则"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "D3_5_疑问",
+      "text": "非会议发起人只能把分配给他的人修改会议详情吗?",
+      "color": "RGB(255, 192, 203)",
+      "position": "[760, 420]",
+      "dimensions": "[200, 50]",
+      "role": "未决问题"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "E1_反馈",
+      "text": "嗯，听起来还是有点抽象？你能给我一个具体的例子吗？",
+      "color": "RGB(217, 192, 255)",
+      "position": "[370, 580]",
+      "dimensions": "[380, 40]",
+      "role": "用户反馈/提问"
+    },
+    {
+      "type": "rounded_rectangle",
+      "id": "E2_反馈",
+      "text": "标题叫什么好呢？",
+      "color": "RGB(217, 192, 255)",
+      "position": "[370, 630]",
+      "dimensions": "[380, 40]",
+      "role": "用户反馈/提问"
+    },
+    {
+      "type": "circle_and_person_icon",
+      "id": "User_Icon",
+      "text": "",
+      "color": "RGB(0, 0, 128) - 外圈",
+      "position": "[330, 590]",
+      "dimensions": "[30, 30]",
+      "role": "人物图标"
+    },
+    {
+      "type": "independent_text",
+      "text": "BOD for Agile Teams | Content created by Axel Berie, CST | © 2025 Scrum Alliance, Inc. All rights reserved. Unauthorized use or reproduction prohibited.",
+      "color": "RGB(0, 0, 0)",
+      "position": "[50, 780]",
+      "dimensions": "[700, 15]"
+    },
+    {
+      "type": "independent_text",
+      "text": "21",
+      "color": "RGB(0, 0, 0)",
+      "position": "[930, 780]",
+      "dimensions": "[20, 15]"
+    }
+  ],
+  "relationships": [
+    {"from": "A_在线日历", "to": "B_角色需求", "type": "arrow"},
+    {"from": "B_角色需求", "to": "C1_提醒功能", "type": "arrow"},
+    {"from": "B_角色需求", "to": "C2_邀请功能", "type": "arrow"},
+    {"from": "B_角色需求", "to": "C3_修改功能", "type": "arrow"},
+    {"from": "C1_提醒功能", "to": "D1_2_实例", "type": "arrow"},
+    {"from": "C1_提醒功能", "to": "D1_3_实例", "type": "arrow"},
+    {"from": "C2_邀请功能", "to": "D2_1_实例", "type": "arrow"},
+    {"from": "C2_邀请功能", "to": "D2_2_实例", "type": "arrow"},
+    {"from": "C3_修改功能", "to": "D3_3_实例", "type": "arrow"},
+    {"from": "C3_修改功能", "to": "D3_4_实例", "type": "arrow"},
+    {"from": "D2_2_实例", "to": "E1_反馈", "type": "arrow_flow_down"},
+    {"from": "E1_反馈", "to": "E2_反馈", "type": "line"},
+    
+    {"isolated_element": "D1_1_疑问", "linked_to": "C1_提醒功能", "link_type": "loose_line"},
+    {"isolated_element": "D2_3_疑问", "linked_to": "C2_邀请功能", "link_type": "loose_line"},
+    {"isolated_element": "D3_1_疑问", "linked_to": "C3_修改功能", "link_type": "loose_line"},
+    {"isolated_element": "D3_2_疑问", "linked_to": "C3_修改功能", "link_type": "loose_line"},
+    {"isolated_element": "D3_5_疑问", "linked_to": "C3_修改功能", "link_type": "loose_line"}
+  ]
+}
+
